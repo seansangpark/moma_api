@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import ImageRequest from './ImageRequest'
+import ImageRequest from './Artwork';
+import ArtworkDisplay from './Artwork';
 
 function App() {
 
-  
-
   return (
     <div className="App">
-      
-      <ImageRequest/>
+      <ArtworkDisplay />
     </div>
   );
 }
